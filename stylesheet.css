@@ -1,0 +1,138 @@
+body{
+    background-color:#ffffff;
+}
+h1{
+    color: #ff6666;
+}
+ #Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff99ff
+  }
+  
+   #Nav li {
+    float: left;
+  }
+  
+  #Nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+  }
+  
+   #Nav li a:hover {
+    background-color: #cc99ff;
+  }
+  
+h1{
+    color: r#ff9999;
+}
+h2 {
+    color:  #f860f8;
+}
+h3{
+    color: #b77cf1;
+}
+.tags p{
+    color: #7070ec;
+}
+.headings h1{
+    color: #7ab9f8;
+}
+.headings h2{
+    color: 	#4ce6bf;
+}
+.headings h3{
+    color: #5beb7f;
+}
+.headings h4{
+    color: #b5e033;
+}
+.headings h5{
+    color: 	#e0bb4b;
+}
+.headings h6{
+    color: #f1825d;
+}
+.formatting{
+    color: teal;
+}
+.attributes p title{
+    color:tomato;
+}
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+em{
+    color: blue;
+}
+p em{
+    color: red;
+}
+body > footer{
+    color: limegreen;
+}
+#task5 h1 + p{
+    color: purple;
+    background-color: grey;
+}
+#task5 p.hover:hover{
+    background-color: pink;
+}
+#task5 p::first-line{
+    color: blue;
+}
+#task5 p::first-letter{
+    color:red;
+    font-size: xx-large;
+}
+#task5 p::before{
+    content: "Read this --";
+}
+#task5 p::after{
+    content: "More to come";
+}
+#task5 p.highlight:hover{
+    background-color: lightblue;
+}
+input :focus{
+    background-color: orange;
+}
+#task6{
+    background-color: grey;
+}
+#task6{
+    background-color: #D7D2CE;
+        background-image: url('https://i.imgur.com/FUYef2G.png');
+        background-repeat: repeat-y;
+        background-position: right;
+
+}
+#task6 img{
+    border: 6px dotted #ff0000; 
+
+}
+#allsides {
+    border: 2px solid black;
+}
+#bottom{
+    border-bottom: 1px solid red; 
+}
+#rounded{
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#blue {
+    border-left: 5px solid blue;
+    background-color: lightblue;
+}
